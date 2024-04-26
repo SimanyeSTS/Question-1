@@ -1,11 +1,46 @@
+/*Cleanup*/
 *,
 *::before,
-*::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+::after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
 }
 ::-webkit-scrollbar{
     display: none;
+
+}
+table{
+    border-color: burlywood;
+    margin: auto;
+}
+h2{
+    color: blue;
+}
+a, u{
+    text-decoration: none;
+    padding: 1rem;
+    color: aliceblue;
+}
+nav{
+    background-color:black;
+    text-align: center;
+}
+#main{
+    margin: 30px;
+    margin-inline: auto;
 }
 
+aside > p{
+    color: maroon;
+}
+aside > div{
+    color: green;
+}
+aside > article{
+    color: navy;
+}
+aside + p + button{
+    color: cornflowerblue;
+
+}
